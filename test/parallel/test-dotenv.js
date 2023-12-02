@@ -56,10 +56,6 @@ assert.strictEqual(process.env.INLINE_COMMENTS_SPACE, 'inline comments start wit
 assert.strictEqual(process.env.EQUAL_SIGNS, 'equals==');
 // Retains inner quotes
 assert.strictEqual(process.env.RETAIN_INNER_QUOTES, '{"foo": "bar"}');
-// Respects equals signs in values
-assert.strictEqual(process.env.EQUAL_SIGNS, 'equals==');
-// Retains inner quotes
-assert.strictEqual(process.env.RETAIN_INNER_QUOTES, '{"foo": "bar"}');
 assert.strictEqual(process.env.RETAIN_INNER_QUOTES_AS_STRING, '{"foo": "bar"}');
 assert.strictEqual(process.env.RETAIN_INNER_QUOTES_AS_BACKTICKS, '{"foo": "bar\'s"}');
 // Retains spaces in string
